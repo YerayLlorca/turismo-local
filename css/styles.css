@@ -1,0 +1,259 @@
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: black;
+    background-size: cover;
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header {
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+.column-nav {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    border-right: solid 3px black;
+    font-size: 1.3vw;
+    background-color: solid;
+    padding: 1vw;
+}
+
+.menu2 {
+    background-color: gray;
+    padding: 0.5vw;
+}
+
+.noticias {
+    background-color: white;
+    padding: 0.5vw;
+    color: black;
+}
+
+.column-nav a {
+    text-decoration: none;
+    padding: 1vw;
+    color: black;
+}
+
+.column-nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.column-nav i:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.column-10 {
+    width: 75%;
+    float: left;
+    margin-left: 25%;
+    border-right: solid 3px black;
+    background-color: white;
+}
+
+.column-25 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: black;
+}
+
+.column-25 h2 {
+    text-align: center;
+}
+
+#menu {
+    width: 80%;
+    float: left;
+}
+
+.column-fot {
+    width: 50%;
+    float: left;
+}
+
+.padding-s {
+    padding: 2vw;
+}
+
+.padding-f {
+    padding: 0.5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+.column-5 {
+    text-align: left;
+}
+
+#sagradafamilia {
+    background-image: url("../img/sagrada\ fam.jpg");
+    height: 20vw;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#barriogot {
+    background-image: url("../img/barrio\ got.jpg");
+    height: 20vw;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#parque {
+    background-image: url("../img/parque\ guell.jpg");
+    height: 20vw;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#casa {
+    background-image: url("../img/casa\ batllo.jpg");
+    height: 20vw;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#sagradafamilia2 {
+    background-image: url("../img/sagrada\ fam.jpg");
+    height: 35vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#barriogot2 {
+    background-image: url("../img/barrio\ got.jpg");
+    height: 35vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#parque2 {
+    background-image: url("../img/parque\ guell.jpg");
+    height: 35vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#casa2 {
+    background-image: url("../img/casa\ batllo.jpg");
+    height: 35vw;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-nav {
+        width: 100%;
+        height: 100%;
+        float: left;
+        position: relative;
+        font-size: 3vw;
+        padding: 1vw;
+    }
+    #menu {
+        width: 100%;
+        float: left;
+    }
+    .column-10 {
+        width: 100%;
+        float: left;
+        margin-left: 0%;
+        border: solid 3px black;
+        background-color: white;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 3.5vw;
+    }
+    .column-2 {
+        width: 50%;
+        float: left;
+    }
+    .flex {
+        width: 100%;
+        font-size: 7vw;
+    }
+    .column-25 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        color: white;
+    }
+    .padding-f {
+        padding: 2vw;
+    }
+    .noticias {
+        border: solid 3px white;
+        padding: 1vw;
+        color: black;
+    }
+    iframe {
+        width: 40vh;
+        height: 50vh;
+        padding-left: 18%;
+    }
+}
